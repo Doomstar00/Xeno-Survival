@@ -1,6 +1,6 @@
 # Xeno-Survival
 
-Baded on Xeno Terror mod(https://github.com/the-s-is-silent/Xeno-Terror), but make Xenos much stronger, like in "Barbarians but better" mod. In first eras Xenos weaker to allow players to survive. Images from Xeno Terror and Alpha Frontier mods.
+Baded on Xeno Terror mod(https://github.com/the-s-is-silent/Xeno-Terror), but make Xenos much stronger, like in "Barbarians but better" mod. In first eras Xenos weaker to allow players to survive. Images from Xeno Terror and Alpha Frontier mods. Also adds more units for Xenos: city destroyers(special anti-city nuclear units, allowing Xenos to destroy cities; infectors(can capture units), and new bosses(including Xeno Titan from old AF files). All bosses (including original AF) capturable and have their unit bonus to make them powerful when controlled by players.
 
 /
 
