@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Xeno War Simulation Training",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Military",
+			"Virtual",
+			"Consumes [3] [Digital Storage Space]",
+			"All newly-trained [Military] units [in this city] receive the [Bug Hunter] promotion",
+			"All newly-trained [Military] units [in this city] receive the [Xenocide] promotion <after adopting [Purification Ideology]>",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"[+3 Production, +2 Culture] <in cities with a [Remote Fabricator]>",
+			"Cost increases by [30] per owned city",
+			"Only available <in cities with a [Military Simulation Training]>",
+			"Only available <after adopting [Tenacity]>",
+			"Unavailable <after adopting [Symbiosis Ideology]>",
+			"Remove [Xeno War Simulation Training] [in this city] <after adopting [Symbiosis Ideology]>"
+		],
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "Simulation training to prepare our forces against alien horrors and remind them exactly why these aliens are horrors.\nWe suffer not the abominations of the cosmos to live on our Frontier."
+			}
+		]
+	},
+	{
+		"name": "Monument to Imperium of Man",
+		"cost": 1500,
+		"culture": 3,
+		"isWonder": true,
+		"uniques": [
+			"Military",
+			"All newly-trained [Military] units [in this city] receive the [Xenopurge] promotion",
+			"Only available <in cities with a [Military Simulation Training]>",
+			"Only available <after adopting [Tenacity Complete]>"
+		],
+		"requiredTech": "Next-Gen Armaments",
+		"civilopediaText": [
+			{
+				"text": "Monument big enough to make Space Marines agree to visit us and train our soldiers how to purge xenos."
+			}
+		]
+	}
+]

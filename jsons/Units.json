@@ -1,0 +1,308 @@
+[
+	{
+		"name": "Xeno City Destroyer",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 150,
+		"requiredTech": "Next-Gen Armaments", 
+		"obsoleteTech": "Combat Mechas",
+		"uniques": ["Xeno", "Limited to [4] per Civilization",
+			"[+10000]% Strength <vs cities> <when attacking>", 
+			"[-50]% Strength <vs [Military] units> <when defending>",
+			"[+200]% Strength <vs [City]> <starting from the [Halcyon era]>", 
+			"[+300]% Strength <vs [City]> <starting from the [Realization era]>", 
+			"[+400]% Strength <vs [City]> <starting from the [Transcendental era]>", 
+			"[+500]% Strength <vs [City]> <starting from the [Singularity era]>", 
+      "[+1] Movement <starting from the [Halcyon era]>", 
+      "[+1] Movement <starting from the [Realization era]>", 
+      "[+1] Movement <starting from the [Transcendental era]>", 
+      "[+1] Movement <starting from the [Singularity era]>", 
+			"Can only attack [City] units", "Uncapturable",
+			"Self-destructs when attacking",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [0]",
+		],
+		"attackSound": "MonsterBite"
+	},
+	{
+		"name": "Xeno City Devastator",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 150,
+		"requiredTech": "Combat Mechas", 
+		"uniques": ["Xeno", "Limited to [2] per Civilization",
+			"[+10000]% Strength <vs cities> <when attacking>", 
+			"[-100]% Strength <vs [Military] units> <when defending>",
+			"[+200]% Strength <vs [City]> <starting from the [Halcyon era]>", 
+			"[+300]% Strength <vs [City]> <starting from the [Realization era]>", 
+			"[+400]% Strength <vs [City]> <starting from the [Transcendental era]>", 
+			"[+500]% Strength <vs [City]> <starting from the [Singularity era]>", 
+      "[+1] Movement <starting from the [Halcyon era]>", 
+      "[+1] Movement <starting from the [Realization era]>", 
+      "[+1] Movement <starting from the [Transcendental era]>", 
+      "[+1] Movement <starting from the [Singularity era]>", 
+			"Can only attack [City] units", "Uncapturable",
+			"Self-destructs when attacking",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [0]",
+		],
+		"attackSound": "MonsterBite"
+	},
+	{
+		"name": "Xeno City Anihillator",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 80,
+		"cost": 150,
+		"requiredTech": "Genetic Hybridization", 
+		"uniques": ["Xeno", "Limited to [1] per Civilization","Titan",
+			"[+10000]% Strength <vs cities> <when attacking>", 
+			"[-200]% Strength <vs [Military] units> <when defending>",
+			"[+300]% Strength <vs [City]> <starting from the [Halcyon era]>", 
+			"[+400]% Strength <vs [City]> <starting from the [Realization era]>", 
+			"[+500]% Strength <vs [City]> <starting from the [Transcendental era]>", 
+			"[+600]% Strength <vs [City]> <starting from the [Singularity era]>", 
+      "[+1] Movement <starting from the [Halcyon era]>", 
+      "[+1] Movement <starting from the [Realization era]>", 
+      "[+1] Movement <starting from the [Transcendental era]>", 
+      "[+2] Movement <starting from the [Singularity era]>", 
+			"Can only attack [City] units", "Uncapturable",
+			"Self-destructs when attacking",
+			"Nuclear weapon of Strength [5]",
+			"Blast radius [0]",
+		],
+		"attackSound": "MonsterBite"
+	},
+	{
+		"name": "Ulfradrake",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 63,
+		"rangedStrength": 63,
+		"range": 1,
+		"cost": 100,
+		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]","Limited to [1] per Civilization","[90]% chance to intercept air attacks","Cannot move <before [40] turns>",
+			"[+200]% Strength"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "ChargeUpBeam",
+		"requiredTech": "Fusion Power",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A very rare yet exceptionally destructive flying xeno that fed on Ulframite. Its breath of fire has the potency of thermonuclear weapons - literally."
+			}
+		]
+	},
+	{
+		"name": "Leviathan",
+		"unitType": "Xeno Stealth Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 100,
+		"rangedStrength": 65,
+		"range": 2,
+		"cost": 100,
+		"uniques": ["Xeno","Limited to [1] per Civilization","[+500]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before [20] turns>",
+			"[+200]% Strength"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
+		"attackSound": "MonsterBubbles",
+		"requiredTech": "Metamaterials",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "One of the largest aquatic xeno threats ever encountered - the Leviathan is so large that it looks like an unsuspecting island from afar, preying on nearby ships."
+			}
+		]
+	},
+	{
+		"name": "Overlord",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 100,
+		"uniques": ["Xeno","Limited to [1] per Civilization","[+150]% Strength <vs [Armored] units>","[+150]% Strength <vs cities>","Cannot move <before [10] turns>",
+			"[+200]% Strength"],
+		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
+		"attackSound": "MonsterStep",
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "If you think Gigantes is already the biggest and worst xeno you have seen, then you haven't seen this rampaging giant - few weapons can match it in raw strength."
+			}
+		]
+	},
+	{
+		"name": "Xeno Titan",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 150,
+		"cost": 100,
+		"uniques": ["Xeno","Titan","Limited to [1] per Civilization",
+        "[+1] Sight","Can see over obstacles","Can pass through impassable tiles","All tiles cost 1 movement",
+		  	"May travel on Water tiles without embarking", 
+        "[+100]% Strength <vs cities>","Destroys tile improvements when attacking","[-30]% Strength for enemy [non-[Titan]] units in adjacent [All] tiles",
+			"[+200]% Strength"],
+		"attackSound": "MonsterBite",
+		"requiredTech": "Advanced Biotech",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "The ultimate instrument of destruction and vengeance from nature itself, it created an abomination based off its greatest enemy - us."
+			}
+		]
+	},
+	{
+		"name": "Giant Wurm",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 100,
+		"cost": 100,
+		"requiredTech": "Combat Mechas",
+		"uniques": [
+			"Xeno","Titan","Limited to [1] per Civilization",
+			"[+150]% Strength <vs [Armored] units>",
+			"[+150]% Strength <vs cities>",
+			"[-3] Movement <in [non-[Desert]] tiles>"
+		],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Wurm",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "This cthonic menace were first seen near the deserts of the planet, and contrary to popular beliefs, is not a source of spice."
+			}
+		]
+	},
+	{
+		"name": "Infectious Shroom",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"range": 1,
+		"strength": 90,
+		"rangedStrength": 80,
+		"cost": 100,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"Xeno","Titan","Limited to [1] per Civilization",
+			"[+150]% Strength <vs [Infantry] units>",
+			"May capture killed [All] units",
+			"[-40]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
+			"[+40]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
+			"[-1] Movement <in [non-[Mycelium]] tiles>",
+			"Invisible to non-adjacent units <in [Jungle] tiles>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mycon",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "A towering ambulatory fungus. Beware its infectious spores."
+			}
+		]
+	},
+	{
+		"name": "Xeno Infector",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 20,
+		"requiredTech": "Next-Gen Armaments", 
+		"obsoleteTech": "Combat Mechas",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>", "[+50]% Strength <vs [Wounded] units>"
+			"May capture killed [All] units",],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "This strange Xeno can infect and assimilate defeated units."
+			}
+		]
+	},
+	{
+		"name": "Xeno Apex Infector",
+		"unitType": "Xeno Ranged Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 20,
+		"requiredTech": "Combat Mechas",
+		"uniques": ["Xeno", "[-50]% Strength <vs cities>", "[+100]% Strength <vs [Wounded] units>"
+			"May capture killed [All] units",],
+		"promotions": ["Ignore terrain cost","Toxin I","Carapace I"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more vicious strain of Infector."
+			}
+		]
+	},
+	{
+		"name": "Wither Storm",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 2,
+		"cost": 100000,
+		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]",
+        "Limited to [1] per Civilization","Cannot move <before [200] turns>",
+        "[2] additional attacks per turn", 
+			  "[+200]% Strength"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "ChargeUpBeam",
+		"requiredTech": "Singularity Tech",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "I do not know, what this mob from Minecraft Story Mode does here, but at least it is improved version of Ulfradrake, asked by players, with increased range and 3 attacks."
+			}
+		]
+	},
+]

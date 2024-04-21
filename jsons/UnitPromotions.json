@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Xenocide",
+		"uniques": ["[+100]% Strength <vs [Xeno] units>",
+			"This Unit loses the [Xenocide] promotion <after adopting [Symbiosis Ideology]>"]
+	},
+	{
+		"name": "Xenopurge",//Xenopurge do not means that unit want to kill xenos, it means that unit know how to kill xenos, it can love xenos. so it available to symbiosis
+		"uniques": ["[+200]% Strength <vs [Xeno] units>"]
+	},
+	{
+		"name": "Death",
+		"uniques": ["This Unit takes [100] damage", 
+    //"This Unit loses the [Death] promotion <upon turn end>"
+    ]
+	},
+        {
+                "name": "Xeno Unit",
+                "uniques": ["This Unit loses the [Xeno Evolution Base] promotion <when [non-[Barbarians]]>",
+      "Can only attack [Military] units <before the [Exploration era]>",
+      "Unable to pillage tiles <before the [Exploration era]>",
+    "This Unit gains the [Xeno Evolution SPK] promotion <upon defeating a [Military] unit> <for [Barbarians]> <starting from the [Halcyon era]>"]
+        },
+        {
+                "name": "Xeno Evolution SPK",
+                "uniques": ["Doing so will consume this opportunity to choose a Promotion",
+                        "[+1]% Strength <for [9999] turns>"]
+        }
+]
