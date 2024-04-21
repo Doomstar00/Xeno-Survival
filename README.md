@@ -4,3 +4,4 @@ Baded on Xeno Terror mod(https://github.com/the-s-is-silent/Xeno-Terror), but ma
 
 /
 
+Основанно на моде Xeno Terror (https://github.com/the-s-is-silent/Xeno-Terror), но делает Инопланетян намного сильнее, как в моде "Barbarians but better". В первые эпохи Инопланетяне были слабее, чтобы позволить игрокам выжить. Изображения из модов Xeno Terror и Alpha Frontier.
