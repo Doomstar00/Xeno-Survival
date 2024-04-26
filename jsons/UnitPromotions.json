@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Death",
-		"uniques": ["This Unit takes [100] damage", 
+		"uniques": ["This Unit takes [100] damage <upon turn end>", 
     //"This Unit loses the [Death] promotion <upon turn end>"
     ]
 	},
@@ -18,12 +18,17 @@
                 "name": "Xeno Unit",
                 "uniques": ["This Unit loses the [Xeno Evolution Base] promotion <when [non-[Barbarians]]>",
       "Can only attack [Military] units <before the [Exploration era]>",
+       "Cannot attack <before the [Exploration era]> <before [50] turns>", 
       "Unable to pillage tiles <before the [Exploration era]>",
     "This Unit gains the [Xeno Evolution SPK] promotion <upon defeating a [Military] unit> <for [Barbarians]> <starting from the [Halcyon era]>"]
         },
         {
                 "name": "Xeno Evolution SPK",
                 "uniques": ["Doing so will consume this opportunity to choose a Promotion",
-                        "[+1]% Strength <for [9999] turns>"]
+                        "[+2]% Strength <for [9999] turns>",
+                        "[+1]% Strength <for [9999] turns> <with [50]% chance> <starting from the [Realization era]>",
+                        "[+1]% Strength <for [9999] turns> <with [25]% chance> <starting from the [Realization era]>",
+                        "[+1]% Strength <for [9999] turns> <with [10]% chance> <hidden from users> <starting from the [Transcendental era]>",
+                        "[+20]% Strength <for [9999] turns> <with [1]% chance> <hidden from users> <starting from the [Singularity era]>"]
         }
 ]

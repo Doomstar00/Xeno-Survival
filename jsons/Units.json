@@ -87,8 +87,9 @@
 		"rangedStrength": 63,
 		"range": 1,
 		"cost": 100,
-		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]","Limited to [1] per Civilization","[90]% chance to intercept air attacks","Cannot move <before [40] turns>",
-			"[+200]% Strength"],
+		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]","Limited to [1] per Civilization","[90]% chance to intercept air attacks","Cannot move <before [100] turns>","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
+		  	"[+200]% Strength"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
 		"requiredTech": "Fusion Power",
@@ -110,7 +111,8 @@
 		"rangedStrength": 65,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Xeno","Limited to [1] per Civilization","[+500]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before [20] turns>",
+		"uniques": ["Xeno","Limited to [1] per Civilization","[+500]% Strength <when attacking>","Heals [20] damage if it kills a unit","Cannot move <before [50] turns>","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
 			"[+200]% Strength"],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterBubbles",
@@ -131,7 +133,8 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 100,
-		"uniques": ["Xeno","Limited to [1] per Civilization","[+150]% Strength <vs [Armored] units>","[+150]% Strength <vs cities>","Cannot move <before [10] turns>",
+		"uniques": ["Xeno","Limited to [1] per Civilization","[+150]% Strength <vs [Armored] units>","[+150]% Strength <vs cities>","Cannot move <before [50] turns>","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
 			"[+200]% Strength"],
 		"promotions": ["Ignore terrain cost","Carapace I","Carapace II"],
 		"attackSound": "MonsterStep",
@@ -178,7 +181,8 @@
 		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno","Titan","Limited to [1] per Civilization",
-			"[+150]% Strength <vs [Armored] units>",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
+			"[+150]% Strength <vs [Armored] units>","Cannot move <before [50] turns>",
 			"[+150]% Strength <vs cities>",
 			"[-3] Movement <in [non-[Desert]] tiles>"
 		],
@@ -207,11 +211,12 @@
 		"strength": 90,
 		"rangedStrength": 80,
 		"cost": 100,
-		"requiredTech": "Exoskeletons",
+		"requiredTech": "Combat Mechas",
 		"uniques": [
 			"Xeno","Titan","Limited to [1] per Civilization",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
 			"[+150]% Strength <vs [Infantry] units>",
-			"May capture killed [All] units",
+			"May capture killed [All] units","Cannot move <before [80] turns>",
 			"[-40]% Strength for enemy [Military] units in adjacent [Mycelium] tiles",
 			"[+40]% Strength for enemy [Nerve Stapled] units in adjacent [Mycelium] tiles",
 			"[-1] Movement <in [non-[Mycelium]] tiles>",
@@ -267,6 +272,7 @@
 		"rangedStrength": 40,
 		"cost": 20,
 		"requiredTech": "Combat Mechas",
+		"obsoleteTech": "Singularity Tech",
 		"uniques": ["Xeno", "[-50]% Strength <vs cities>", "[+100]% Strength <vs [Wounded] units>"
 			"May capture killed [All] units",],
 		"promotions": ["Ignore terrain cost","Toxin I","Carapace I"],
@@ -284,14 +290,15 @@
 		"name": "Wither Storm",
 		"unitType": "Xeno Air",
 		"uniqueTo": "Barbarians",
-		"movement": 2,
+		"movement": 3,
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 2,
 		"cost": 100000,
-		"uniques": ["Xeno","Nuclear weapon of Strength [1]","Blast radius [0]",
+		"uniques": ["Xeno","Nuclear weapon of Strength [3]","Blast radius [0]","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
         "Limited to [1] per Civilization","Cannot move <before [200] turns>",
-        "[2] additional attacks per turn", 
+        "[2] additional attacks per turn", "Will not be displayed in Civilopedia", 
 			  "[+200]% Strength"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "ChargeUpBeam",
@@ -302,6 +309,313 @@
 			},
 			{
 				"text": "I do not know, what this mob from Minecraft Story Mode does here, but at least it is improved version of Ulfradrake, asked by players, with increased range and 3 attacks."
+			}
+		]
+	},
+	{
+		"name": "Smaller Wither Storm",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 100,
+		"range": 2,
+		"cost": 100000,
+		"uniques": ["Xeno","Nuclear weapon of Strength [2]","Blast radius [0]","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
+        "Limited to [2] per Civilization","Cannot move <before [180] turns>",
+        "[2] additional attacks per turn", "Will not be displayed in Civilopedia", 
+			  "[+100]% Strength"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "ChargeUpBeam",
+		"requiredTech": "Singularity Tech",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Part of WS. Also have 3 attacks, but weaker."
+			}
+		]
+	},
+	{
+		"name": "Xeno Spawner mk1",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 0,
+		"strength": 999,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", "Cannot attack", 
+        "[2] free [Bugwolf] units appear <upon turn end>",
+        "[1] free [Stalker] units appear <upon turn end>",
+        "[1] free [Echidna] units appear <upon turn end>",
+        "[1] free [Darter] units appear <upon turn end>",
+        "This Unit takes [100] damage <upon turn end>",
+        "Limited to [1] per Civilization"
+    ],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Just unit created to spawn hordes of Xenos. This one spawns low-tech units."
+			}
+		]
+	},
+	{
+		"name": "Xeno Spawner mk2",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 0,
+		"strength": 999,
+		"cost": 20,
+		"requiredTech": "Next-Gen Armaments",
+		"obsoleteTech": "Combat Mechas",
+		"uniques": ["Xeno", "Cannot attack", 
+        "[2] free [Dire Bugwolf] units appear <upon turn end>",
+        "[1] free [Reaper] units appear <upon turn end>",
+        "[1] free [Echidna Major] units appear <upon turn end>",
+        "[1] free [Chaser] units appear <upon turn end>",
+        "[1] free [Xeno Infector] units appear <upon turn end>",
+        "This Unit takes [100] damage <upon turn end>",
+        "Limited to [1] per Civilization"
+    ],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Just unit created to spawn hordes of Xenos. This one spawns medium units."
+			}
+		]
+	},
+	{
+		"name": "Xeno Spawner mk3",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 0,
+		"strength": 999,
+		"cost": 20,
+		"requiredTech": "Combat Mechas",
+		"uniques": ["Xeno", "Cannot attack", 
+        "[1] free [Wurm] units appear <upon turn end>",
+        "[1] free [Mycoon] units appear <upon turn end>",
+        "[1] free [Xeno Apex Infector] units appear <upon turn end>",
+        "[1] free [Xeno Infector] units appear <upon turn end>",
+        "[1] free [Gigantes] units appear <upon turn end>",
+        "This Unit takes [100] damage <upon turn end>",
+        "Limited to [1] per Civilization"
+    ],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Just unit created to spawn hordes of Xenos. This one spawns advanced units."
+			}
+		]
+	},
+	{
+		"name": "Xeno Spawner mk4",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 0,
+		"strength": 999,
+		"cost": 20,
+		"requiredTech": "Singularity Tech",
+		"uniques": ["Xeno", "Cannot attack", 
+        "[3] free [Xeno Hunter-Killer] units appear <upon turn end>",
+        "This Unit takes [100] damage <upon turn end>",
+        "Limited to [1] per Civilization"
+    ],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Just unit created to spawn hordes of Xenos. This one spawns hunter-killers."
+			}
+		]
+	},
+	{
+		"name": "Xeno Hunter-Killer",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 6,
+		"range": 3,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 1000,
+		"requiredTech": "Singularity Tech",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"[+1] Sight",
+			"[+200]% Strength <when attacking>",
+			"[-50]% Strength <vs [Air] units>",
+        "May capture killed [All] units <with [50]% chance>",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>",
+			"May withdraw before melee ([50]%)"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Xeno version of cyberheli, now they have skynet helicopters."
+			}
+		]
+	},
+	{
+		"name": "Xeno Queen",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
+		"cost": 1000,
+		"uniques": ["Xeno","Limited to [1] per Civilization","[+200]% Strength <when defending>","Cannot move <before [100] turns>","Titan",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>", 
+        "[1] free [Xeno Broodling] units appear <upon turn end>", 
+        "[+200]% Strength"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterStep",
+		"requiredTech": "Genetic Hybridization",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "This unit, like ant or bee queen, spawn other units."
+			}
+		]
+	},
+	{
+		"name": "Xeno Broodling",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 25,
+		"interceptRange": 1,
+		"cost": 20,
+		"requiredTech": "Singularity Tech",
+		"uniques": ["Unavailable", 
+			"Xeno","Cannot move <before [20] turns>",
+			"[20]% chance to intercept air attacks"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Unit which spawned by Xeno Queen."
+			}
+		]
+	},
+	{
+		"name": "Xeno Eradicator",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"range": 2,
+		"strength": 150,
+		"rangedStrength": 150,
+		"cost": 1000,
+		"requiredTech": "Singularity Tech",
+		"uniques": ["Nuclear weapon of Strength [100]","Blast radius [0]","Titan",
+			"No defensive terrain bonus","Unavailable <before [600] turns>", 
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+        "May capture killed [All] units",
+			"[+1] Sight", "Will not be displayed in Civilopedia", 
+			"[+2000]% Strength <when attacking>",
+        "Destroys tile improvements when attacking"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Kill players in endgame."
+			}
+		]
+	},
+	{
+		"name": "Sea Threat",
+		"unitType": "Xeno Stealth Water",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 2,
+		"cost": 1000,
+		"uniques": ["Xeno","[+300]% Strength <when attacking>","Cannot move <before [50] turns>",
+        "Destroys tile improvements when attacking <starting from the [Singularity era]>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBubbles",
+		"requiredTech": "Nanotechnology",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Seas will never be safe..."
+			}
+		]
+	},
+	{
+		"name": "Miasma Menace",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 8,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", 
+			  "Turn this tile into a [Miasma] tile <upon being defeated> <with [100]% chance> <in [Land] tiles> <in tiles without [Miasma]>", 
+        "[+100]% Strength <in [Miasma] tiles>", 
+        "[3] free [Miasma Menace] units appear <upon being defeated> <with [20]% chance>",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Silent's unit."
+			}
+		]
+	},
+	{
+		"name": "Nuclear Sattelite Recharger",
+		"unitType": "Civilian",
+		"movement": 0,
+		"cost": 800,
+		"uniques": ["Cannot be purchased", 
+        //"This Unit takes [100] damage <upon turn end>",
+        "This Unit takes [100] damage",
+			"Costs [-2] [Nuke Sat Charge]"],
+		"requiredTech": "Orbital Deterrents",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Delivers nukes to nuclear sattelite."
 			}
 		]
 	},
