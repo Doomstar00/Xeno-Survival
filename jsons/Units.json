@@ -597,25 +597,9 @@
 			},
 			{
 				"text": "Silent's unit."
-			}
-		]
-	},
-	{
-		"name": "Nuclear Sattelite Recharger",
-		"unitType": "Civilian",
-		"movement": 0,
-		"cost": 800,
-		"uniques": ["Cannot be purchased", 
-        //"This Unit takes [100] damage <upon turn end>",
-        "This Unit takes [100] damage",
-			"Costs [-2] [Nuke Sat Charge]"],
-		"requiredTech": "Orbital Deterrents",
-		"civilopediaText": [
-			{
-				"Separator": true
 			},
 			{
-				"text": "Delivers nukes to nuclear sattelite."
+				"text": "Hazardous organic particles coalesced into a type of xenofauna that thrives in lands where other species cannot exist. Handle them the wrong way, and their spread will quickly spiral out of control."
 			}
 		]
 	},
