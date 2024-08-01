@@ -43,7 +43,8 @@
       "[+5] XP gained from combat <starting from the [Halcyon era]>",
       "[+100]% XP gained from combat <starting from the [Realization era]>",
 			"All healing effects doubled <in [Miasma] tiles> <starting from the [Colonization era]>",
-			"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles> <starting from the [Realization era]>"
+			"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles> <starting from the [Realization era]>",
+			"[+10] HP when healing <within [3] tiles of a [Barbarian encampment]>"
     ]
 	}
 ]
