@@ -485,6 +485,7 @@
 		"cost": 1000,
 		"uniques": ["Xeno","Limited to [1] per Civilization","[+200]% Strength <when defending>","Cannot move <before [100] turns>","Titan",
         "Destroys tile improvements when attacking <starting from the [Singularity era]>", 
+        "[10] free [Xeno Broodling] units appear <upon losing at least [5] HP in a single attack>", 
         "[1] free [Xeno Broodling] units appear <upon turn end>", 
         "[+200]% Strength"],
 		"promotions": ["Ignore terrain cost"],
