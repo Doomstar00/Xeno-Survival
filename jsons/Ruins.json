@@ -3,7 +3,7 @@
 	{
 		"name": "shared cultural inspiration",
 		"notification": "Captured colonists share the secrets of their well-ordered society! (+[cultureAmount] culture)",
-		"uniques": ["Gain [50]-[100] [Culture]", "Only available <after [30] turns>"],
+		"uniques": ["Gain [100]-[150] [Culture]", "Only available <after [30] turns>"],
 		"color": "#cf8ff7"
 	},
 	{
@@ -17,13 +17,13 @@
 	{
 		"name": "discover a partial data schematic",
 		"notification": "We have found a data schematic in the crash site. Though much of the data has been corrupted, enough was still recovered to make it useful. (+[scienceAmount] science)",
-		"uniques": ["Gain [50]-[75] [Science]", "Only available <before [50] turns>"],
+		"uniques": ["Gain [50]-[150] [Science]", "Only available <before [50] turns>"],
 		"color": "#7f7fff"
 	},
 	{
 		"name": "recover a research log",
 		"notification": "We have recovered a Field Scientist's research logs! (+[scienceAmount] science)",
-		"uniques": ["Gain [100]-[150] [Science]", "Only available <after [50] turns> <before [100] turns>"],
+		"uniques": ["Gain [150]-[500] [Science]", "Only available <after [50] turns> <before [100] turns>"],
 		"color": "#7f7fff"
 	},
 	
@@ -31,13 +31,13 @@
 	{
 		"name": "a credit chip",
 		"notification": "A credit chip was salvaged from the crash site, redeemable for [goldAmount] credits!",
-		"uniques": ["Gain [50]-[100] [Gold]"],
+		"uniques": ["Gain [100]-[200] [Gold]"],
 		"color": "#ffeb7f"
 	},
 	{
 		"name": "a credit account",
 		"notification": "We have found an intact credit account in the crash site and recovered [goldAmount] credits!",
-		"uniques": ["Gain [250]-[500] [Gold]"],
+		"uniques": ["Gain [450]-[800] [Gold]"],
 		"color": "#ffeb7f"
 	},
 	
@@ -79,13 +79,13 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "Our unit has gained experience from military logs recovered from the crash site!",
-		"uniques": ["This Unit gains [15] XP"],
+		"uniques": ["[This Unit] gains [15] XP"],
 		"color": "#20afe8"
 	},
 	{
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training from a combat simulator recovered from the crash site!",
-		"uniques": ["This Unit gains [30] XP", "Only available <after [30] turns>"],
+		"uniques": ["[This Unit] gains [30] XP", "Only available <after [30] turns>"],
 		"color": "#20afe8"
 	},
 	{
