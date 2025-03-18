@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Death",
-		"uniques": ["This Unit takes [100] damage <upon turn end>", 
+		"uniques": ["[This Unit] takes [100] damage <upon turn end>", 
     //"This Unit loses the [Death] promotion <upon turn end>"
     ]
 	},
